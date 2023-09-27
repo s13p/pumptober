@@ -33,7 +33,56 @@
 
     <!--custom css-->
     <link rel="stylesheet" href="index_files/css/custom.css">
+    <style>
+        .bodede {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+        }
 
+        .moving-image {
+            position: absolute;
+            bottom: 0;
+            width: 50px;
+            height: 50px;
+            animation: moveUp infinite;
+            background-image: url('./PUMP-04.png');
+            background-size: cover;
+        }
+
+        /* Generated styles for 20 images */
+        .image1 { left: 5%; animation-duration: 5s; }
+        .image2 { left: 10%; animation-duration: 6s; }
+        .image3 { left: 15%; animation-duration: 7s; }
+        .image4 { left: 20%; animation-duration: 5.5s; }
+        .image5 { left: 25%; animation-duration: 6.5s; }
+        .image6 { left: 30%; animation-duration: 7.5s; }
+        .image7 { left: 35%; animation-duration: 5.2s; }
+        .image8 { left: 40%; animation-duration: 6.2s; }
+        .image9 { left: 45%; animation-duration: 7.2s; }
+        .image10 { left: 50%; animation-duration: 5.7s; }
+        .image11 { left: 55%; animation-duration: 6.7s; }
+        .image12 { left: 60%; animation-duration: 7.7s; }
+        .image13 { left: 65%; animation-duration: 5.3s; }
+        .image14 { left: 70%; animation-duration: 6.3s; }
+        .image15 { left: 75%; animation-duration: 7.3s; }
+        .image16 { left: 80%; animation-duration: 5.8s; }
+        .image17 { left: 85%; animation-duration: 6.8s; }
+        .image18 { left: 90%; animation-duration: 7.8s; }
+        .image19 { left: 95%; animation-duration: 5.4s; }
+        .image20 { left: 100%; animation-duration: 6.4s; }
+
+        @keyframes moveUp {
+            0% {
+                bottom: 0;
+            }
+            100% {
+                bottom: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body class="light-bg">
@@ -127,7 +176,40 @@
             }
         </style>
         <!--hero section start-->
-        <section class=" baga np-hero-section position-relative overflow-hidden" style="height: 100vh !important;">
+        <section class="bodede baga np-hero-section position-relative overflow-hidden" style="height: 100vh !important;">
+
+
+
+
+
+            <div class="moving-image image1"></div>
+            <div class="moving-image image2"></div>
+            <div class="moving-image image3"></div>
+            <div class="moving-image image4"></div>
+            <div class="moving-image image5"></div>
+            <div class="moving-image image6"></div>
+            <div class="moving-image image7"></div>
+            <div class="moving-image image8"></div>
+            <div class="moving-image image9"></div>
+            <div class="moving-image image10"></div>
+            <div class="moving-image image11"></div>
+            <div class="moving-image image12"></div>
+            <div class="moving-image image13"></div>
+            <div class="moving-image image14"></div>
+            <div class="moving-image image15"></div>
+            <div class="moving-image image16"></div>
+            <div class="moving-image image17"></div>
+            <div class="moving-image image18"></div>
+            <div class="moving-image image19"></div>
+            <div class="moving-image image20"></div>
+        
+
+
+
+
+
+
+
             <img src="./PUMP-04.png" height="50px" alt="not found" class="position-absolute zindex--1 np-hero-shape-1 start-0 d-none d-sm-block wow fadeInDown">
             <img src="./PUMP-04.png" height="30px" style="margin-left: 80px;" alt="not found" class="position-absolute zindex--1 np-hero-shape-2 start-0 d-none d-sm-block wow fadeInUp">
 
